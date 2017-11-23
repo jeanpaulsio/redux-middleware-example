@@ -8,6 +8,7 @@ class App extends Component {
   }
 
   renderUsers = () => {
+    console.log(this.props.users)
     if (!this.props.users) return <div />;
 
     return (
